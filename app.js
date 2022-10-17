@@ -45,6 +45,17 @@ const calculator = {
     add: function (a,b) {
         console.log(a+b);   
     },
+    minus: function (a, b) {
+        console.log(a-b);
+    },
+    times : function (a,b) {
+        console.log(a*b);
+    },
+    divide : function (a,b)  {
+        console.log(a/b);
+    },
+        console.log(a**b);
+    }, 
 };
 
 calculator.add (33,424);
@@ -52,5 +63,7 @@ calculator.add (33,424);
 
 // a-b a/b a+b a**b 구현해주기..! calculaotr에
 calculator.add(1,2);
-calculator.minus(2,1);
-calculator.
+calculator.minus(4,1);
+calculator.divide(1000/16);
+calculator.power(2,14);
+calculator.times(12412,1231);                                                                                                              (2,1);
